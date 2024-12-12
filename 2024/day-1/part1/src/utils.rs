@@ -35,3 +35,13 @@ pub fn calculate_total_diff(path: &str) -> io::Result<i32> {
 
    Ok(total)
 }
+
+/*
+     ALGORITHM
+      - Sort the columns in the file
+      - Set a counter to store the sum of every value      - Iterate over every row: 4 5
+      - Convert the both rows values in every iteration
+      - Sustract both values and sum it in the same iteration.
+      - Return the total sum of every value.
+    
+*/
